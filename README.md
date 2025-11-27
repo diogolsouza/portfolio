@@ -70,6 +70,33 @@ portfolio/
     superstore/
     hr-analytics/
     nyc-taxi/
+
+  certifications/
+    microsoft/
+      dp-900/
+      dp-203/
+      dp-600/
+      ai-900/
+      ai-102/
+      dp-100/
+    aws/
+      cloud-practitioner/
+      data-engineer-associate/
+    google/
+      data-analytics/
+      professional-data-engineer/
+    databricks/
+      lakehouse-fundamentals/
+      data-engineer-associate/
+      genai-fundamentals/
+    dama/
+      cdmp-fundamentals/
+    deep-learning-ai/
+      llm-specialization/
+      deep-learning-specialization/
+    others/
+      python-cert/
+      tableau-specialist/
 ```
 
 ---
