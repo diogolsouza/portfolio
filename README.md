@@ -189,6 +189,46 @@ Each includes:
 
 ---
 
+# 🏅 Certifications
+
+This portfolio is supported by a broad set of certifications in Data Engineering, AI, Machine Learning, Cloud and Business Intelligence.  
+These credentials validate the technologies and methodologies used throughout the projects included in this repository.
+
+## Microsoft
+- **DP-900** — Azure Data Fundamentals  
+- **DP-203** — Azure Data Engineer Associate  
+- **DP-600** — Fabric Analytics Engineer  
+- **AI-900** — Azure AI Fundamentals  
+- **AI-102** — Azure AI Engineer (in progress)  
+- **DP-100** — Azure Machine Learning  
+
+## AWS
+- **Cloud Practitioner**  
+- **Data Engineer Associate** (in progress)
+
+## Google Cloud
+- **Professional Data Engineer**  
+- **Data Analytics Professional Certificate**
+
+## Databricks
+- **Lakehouse Fundamentals**  
+- **Data Engineer Associate**  
+- **Generative AI Fundamentals**  
+- **Machine Learning Associate**  
+
+## DAMA International
+- **CDMP — Data Management Fundamentals** (in progress)
+
+## DeepLearning.AI
+- **Deep Learning Specialization**  
+- **Generative AI with Large Language Models**
+
+## Others
+- **Python Certification**  
+- **Tableau Specialist**  
+
+---
+
 # 🚀 About This Portfolio
 
 This repository represents my work across **Data Engineering, Business Intelligence, Machine Learning, and AI**, showcasing end-to-end solutions from **raw data ingestion** to **analytics, modeling, and intelligent systems**.
