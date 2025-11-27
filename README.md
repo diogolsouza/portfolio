@@ -202,4 +202,4 @@ If you want to connect or collaborate, feel free to reach me on LinkedIn.
 **Diogo Souza**  
 Senior Data Engineer | BI & AI Specialist  
 📍 Madrid, Spain  
-🔗 LinkedIn: <your-link-here>
+🔗 LinkedIn: https://www.linkedin.com/in/diogo-souza/
