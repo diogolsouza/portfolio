@@ -1,6 +1,6 @@
 # 📊 Data & AI Portfolio
 
-Welcome to my **end-to-end Data & AI Portfolio**, a collection of real-world projects that showcase my skills across:
+Welcome to my **end-to-end Data & AI Portfolio**, a collection of real-world projects showcasing my capabilities across:
 
 - **Business Intelligence**
 - **Data Engineering**
@@ -9,7 +9,7 @@ Welcome to my **end-to-end Data & AI Portfolio**, a collection of real-world pro
 - **Advanced Analytics**
 - **Cloud Data Solutions (Azure)**
 
-This portfolio includes dashboards, ETL pipelines, ML models, AI agents, notebooks, and curated datasets — all organized by domain for easy navigation.
+This portfolio includes dashboards, data pipelines, ML models, AI agents, notebooks, and curated datasets — organized by domain for clarity and easy navigation.
 
 ---
 
@@ -73,30 +73,17 @@ portfolio/
 
   certifications/
     microsoft/
-      dp-900/
-      dp-203/
-      dp-600/
-      ai-900/
-      ai-102/
-      dp-100/
-    aws/
-      cloud-practitioner/
-      data-engineer-associate/
-    google/
-      data-analytics/
-      professional-data-engineer/
-    databricks/
-      lakehouse-fundamentals/
-      data-engineer-associate/
-      genai-fundamentals/
-    dama/
-      cdmp-fundamentals/
-    deep-learning-ai/
-      llm-specialization/
-      deep-learning-specialization/
-    others/
-      python-cert/
-      tableau-specialist/
+      aws/
+      dama-international/
+      databricks/
+      google/
+      ibm/
+      informs-certifiedanalytics/
+      microsoft/
+      nvidia/
+      tableau/
+      tdwi/
+      
 ```
 
 ---
@@ -218,41 +205,128 @@ Each includes:
 
 # 🏅 Certifications
 
-This portfolio is supported by a broad set of certifications in Data Engineering, AI, Machine Learning, Cloud and Business Intelligence.  
-These credentials validate the technologies and methodologies used throughout the projects included in this repository.
+Certifications are organized in **two categories** aligned with the structure of this portfolio:
 
-## Microsoft
-- **DP-900** — Azure Data Fundamentals  
-- **DP-203** — Azure Data Engineer Associate  
-- **DP-600** — Fabric Analytics Engineer  
-- **AI-900** — Azure AI Fundamentals  
-- **AI-102** — Azure AI Engineer (in progress)  
-- **DP-100** — Azure Machine Learning  
+- **📘 Data Engineering & Analytics Certifications**  
+- **🤖 AI, Machine Learning & LLM Certifications**
 
-## AWS
-- **Cloud Practitioner**  
-- **Data Engineer Associate** (in progress)
+Inside each category, certifications are grouped **by vendor**.
 
-## Google Cloud
-- **Professional Data Engineer**  
-- **Data Analytics Professional Certificate**
+---
 
-## Databricks
-- **Lakehouse Fundamentals**  
-- **Data Engineer Associate**  
-- **Generative AI Fundamentals**  
-- **Machine Learning Associate**  
+# 📘 DATA ENGINEERING & ANALYTICS  
+Located at: `portfolio/certifications/data/`
 
-## DAMA International
-- **CDMP — Data Management Fundamentals** (in progress)
+## 🟦 Microsoft
+- DP-900 — Azure Data Fundamentals  
+- DP-203 — Azure Data Engineer Associate  
+- DP-600 — Fabric Analytics Engineer Associate  
+- PL-300 — Power BI Data Analyst  
+- DP-700 — Data Analyst Associate  
+- AZ-104 — Azure Administrator Associate  
+- AZ-305 — Azure Solutions Architect Expert  
+- AZ-400 — DevOps Engineer Expert  
 
-## DeepLearning.AI
-- **Deep Learning Specialization**  
-- **Generative AI with Large Language Models**
+---
 
-## Others
-- **Python Certification**  
-- **Tableau Specialist**  
+## 🟧 AWS
+- Cloud Practitioner (CLF-C02)  
+- Data Engineer Associate (DEA-C01)  
+- Solutions Architect Associate (SAA-C03)  
+- Solutions Architect Professional (SAP-C02)  
+- DevOps Engineer Professional (DOP-C02)  
+- Data Analytics Specialty (DAS-C01)  
+
+---
+
+## 🟦 Google Cloud
+- Cloud Digital Leader  
+- Associate Cloud Engineer  
+- Professional Data Engineer  
+- Professional Cloud Architect  
+- Google Data Analytics Certificate  
+
+---
+
+## 🔴 Databricks
+- Lakehouse Fundamentals  
+- Data Engineer Associate  
+- Data Engineer Professional  
+- Apache Spark Developer Associate (Python)  
+
+---
+
+## 🟣 DAMA International
+- CDMP – Data Management Fundamentals  
+- CDMP – Data Quality  
+- CDMP – Data Warehousing & BI  
+
+---
+
+## 🟡 TDWI
+- CBIP – Data Foundations  
+- CBIP – IS Core / Business Core  
+- CBIP – Specialty Exams  
+
+---
+
+## 📊 Certified Analytics (INFORMS)
+- CAP — Certified Analytics Professional  
+
+---
+
+## 📈 Tableau
+- Tableau Consultant / Professional  
+- Tableau AI Integration Specialist  
+
+---
+
+# 🤖 AI, MACHINE LEARNING & LLM CERTIFICATIONS  
+Located at: `portfolio/certifications/ai/`
+
+## 🟦 Microsoft
+- AI-900 — Azure AI Fundamentals  
+- AI-102 — Azure AI Engineer Associate  
+- AI-050 — Azure OpenAI Fundamentals  
+- DP-100 — Azure Machine Learning  
+
+---
+
+## 🟧 AWS
+- MLS-C01 — Machine Learning Specialty  
+- GAI-A01 — Generative AI Engineer Associate  
+
+---
+
+## 🟦 Google Cloud
+- Google Professional ML Engineer  
+- Google Cloud Generative AI Engineer  
+
+---
+
+## 🔴 Databricks
+- Machine Learning Associate  
+- Machine Learning Professional  
+- Generative AI Professional  
+
+---
+
+## 🧠 DeepLearning.AI
+- Deep Learning Specialization  
+- Generative AI with Large Language Models  
+- LLM Specialization  
+
+---
+
+## 🟩 NVIDIA
+- NVIDIA Certified AI Engineer  
+- DLI — Fundamentals of Deep Learning  
+
+---
+
+## 🧩 IBM
+- IBM AI Engineering Professional Certificate  
+- IBM Machine Learning Certificate
 
 ---
 
