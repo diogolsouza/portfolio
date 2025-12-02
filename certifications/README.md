@@ -49,7 +49,8 @@ Folder: `certifications/data/google/`
 ## 🔴 Databricks  
 Folder: `certifications/data/databricks/`
 
-- Lakehouse Fundamentals  
+![Lakehouse Fundamentals](https://img.shields.io/badge/Databricks-Lakehouse%20Fundamentals-e82c2a?logo=databricks&logoColor=white)  
+
 - Data Engineer Associate  
 - Data Engineer Professional  
 - Apache Spark Developer Associate (Python)  
@@ -60,8 +61,8 @@ Folder: `certifications/data/databricks/`
 Folder: `certifications/data/dama/`
 
 - CDMP – Data Management Fundamentals  
-- CDMP – Data Modeling & Design (Specialist Exam)  
-- CDMP – Data Warehousing & BI  
+- CDMP – Data Modeling & Design 
+- CDMP – Data Warehousing & BI   
 
 ---
 
@@ -70,7 +71,7 @@ Folder: `certifications/data/tdwi/`
 
 - CBIP – Data Foundations  
 - CBIP – IS Core  
-- CBIP – CBIP – Data Integration (Specialty Exam)  
+- CBIP – Data Integration 
 
 ---
 
@@ -120,6 +121,8 @@ Folder: `certifications/ai/google/`
 
 ## 🔴 Databricks  
 Folder: `certifications/ai/databricks/`
+
+![Generative AI Accreditation](https://img.shields.io/badge/Databricks-Generative%20AI%20Accreditation-e82c2a?logo=databricks&logoColor=white)  
 
 - Machine Learning Associate  
 - Machine Learning Professional  
