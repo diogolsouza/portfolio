@@ -33,7 +33,6 @@ Folder: `certifications/data/aws/`
 - DEA-C01 — Data Engineer Associate  
 - SAP-C02 — Solutions Architect Professional  
 - DOP-C02 — DevOps Engineer Professional  
-- DAS-C01 — Data Analytics Specialty  
 
 ---
 
@@ -44,7 +43,6 @@ Folder: `certifications/data/google/`
 - GCP-ACE — Associate Cloud Engineer  
 - GCP-PDE — Professional Data Engineer  
 - GCP-PCA — Professional Cloud Architect  
-- Google Data Analytics Certificate  
 
 ---
 
@@ -62,7 +60,7 @@ Folder: `certifications/data/databricks/`
 Folder: `certifications/data/dama/`
 
 - CDMP – Data Management Fundamentals  
-- CDMP – Data Quality  
+- CDMP – Data Modeling & Design (Specialist Exam)  
 - CDMP – Data Warehousing & BI  
 
 ---
@@ -71,8 +69,8 @@ Folder: `certifications/data/dama/`
 Folder: `certifications/data/tdwi/`
 
 - CBIP – Data Foundations  
-- CBIP – IS Core or Business Core  
-- CBIP – Specialty Exams  
+- CBIP – IS Core  
+- CBIP – CBIP – Data Integration (Specialty Exam)  
 
 ---
 
@@ -87,9 +85,6 @@ Folder: `certifications/data/certifiedanalytics/`
 Folder: `certifications/data/tableau/`
 
 - Tableau Consultant / Professional  
-- Tableau + Einstein Discovery: AI Integration Specialist  
-
----
 
 ---
 
@@ -102,7 +97,6 @@ Folder: `certifications/ai/microsoft/`
 - AI-900 — Azure AI Fundamentals  
 - AI-102 — Azure AI Engineer Associate  
 - AI-050 — Azure OpenAI Fundamentals  
-- DP-100 — Azure Machine Learning  
 - AB-100 — Agentic AI Business Solutions Architect (beta)  
 
 ---
@@ -111,7 +105,8 @@ Folder: `certifications/ai/microsoft/`
 Folder: `certifications/ai/aws/`
 
 - MLS-C01 — Machine Learning Specialty  
-- GAI-A01 — Generative AI Engineer Associate  
+- GAI-A01 — Generative AI Engineer Associate
+- GAI-A01 — AWS Certified Generative AI Engineer – Associate
 
 ---
 
@@ -132,20 +127,11 @@ Folder: `certifications/ai/databricks/`
 
 ---
 
-## 🧠 DeepLearning.AI  
-Folder: `certifications/ai/deep-learning-ai/`
-
-- Deep Learning Specialization  
-- LLM Specialization  
-- Generative AI with Large Language Models  
-
----
-
 ## 🟩 NVIDIA  
 Folder: `certifications/ai/nvidia/`
 
 - NVAIE — NVIDIA Certified AI Engineer  
-- DLI — Fundamentals of Deep Learning  
+- NVIDIA Deep Learning Institute – Fundamentals of Deep Learning  
 
 ---
 
@@ -157,23 +143,33 @@ Folder: `certifications/ai/ibm/`
 
 ---
 
+## 📈 Tableau 
+Folder: `certifications/ai/tableau/`
+
+- Tableau + Einstein Discovery: AI Integration Specialist  
+
+---
+
 # 📚 Structure Summary
 
+```
 certifications/
-data/
-microsoft/
-aws/
-google/
-databricks/
-dama/
-tdwi/
-certifiedanalytics/
-tableau/
-ai/
-microsoft/
-aws/
-google/
-databricks/
-deep-learning-ai/
-nvidia/
-ibm/
+    data/
+        microsoft/
+        aws/
+        google/
+        databricks/
+        dama/
+        tdwi/
+        certifiedanalytics/
+        tableau/
+    ai/
+        microsoft/
+        aws/
+        google/
+        databricks/
+        deep-learning-ai/
+        nvidia/
+        tableau/
+    ibm/
+```

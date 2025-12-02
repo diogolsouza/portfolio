@@ -224,8 +224,7 @@ Inside each category, certifications are grouped **by vendor**.
 Located at: `portfolio/certifications/data/`
 
 ## 🟦 Microsoft
-- DP-900 — Azure Data Fundamentals  
-- DP-203 — Azure Data Engineer Associate  
+- DP-900 — Azure Data Fundamentals   
 - DP-600 — Fabric Analytics Engineer Associate  
 - PL-300 — Power BI Data Analyst  
 - DP-700 — Data Analyst Associate  
@@ -241,7 +240,6 @@ Located at: `portfolio/certifications/data/`
 - Solutions Architect Associate (SAA-C03)  
 - Solutions Architect Professional (SAP-C02)  
 - DevOps Engineer Professional (DOP-C02)  
-- Data Analytics Specialty (DAS-C01)  
 
 ---
 
@@ -249,8 +247,7 @@ Located at: `portfolio/certifications/data/`
 - Cloud Digital Leader  
 - Associate Cloud Engineer  
 - Professional Data Engineer  
-- Professional Cloud Architect  
-- Google Data Analytics Certificate  
+- Professional Cloud Architect   
 
 ---
 
@@ -282,8 +279,7 @@ Located at: `portfolio/certifications/data/`
 ---
 
 ## 📈 Tableau
-- Tableau Consultant / Professional  
-- Tableau AI Integration Specialist  
+- Tableau Consultant / Professional   
 
 ---
 
@@ -294,13 +290,15 @@ Located at: `portfolio/certifications/ai/`
 - AI-900 — Azure AI Fundamentals  
 - AI-102 — Azure AI Engineer Associate  
 - AI-050 — Azure OpenAI Fundamentals  
-- DP-100 — Azure Machine Learning  
+- AB-100 — Agentic AI Business Solutions Architect (beta)  
 
 ---
 
 ## 🟧 AWS
-- MLS-C01 — Machine Learning Specialty  
-- GAI-A01 — Generative AI Engineer Associate  
+- MLS-C01 — Machine Learning Specialty
+- DAS-C01 — AWS Certified Data Analytics Specialty
+- GAI-A01 — Generative AI Engineer Associate
+-
 
 ---
 
@@ -317,13 +315,6 @@ Located at: `portfolio/certifications/ai/`
 
 ---
 
-## 🧠 DeepLearning.AI
-- Deep Learning Specialization  
-- Generative AI with Large Language Models  
-- LLM Specialization  
-
----
-
 ## 🟩 NVIDIA
 - NVIDIA Certified AI Engineer  
 - DLI — Fundamentals of Deep Learning  
@@ -333,6 +324,11 @@ Located at: `portfolio/certifications/ai/`
 ## 🧩 IBM
 - IBM AI Engineering Professional Certificate  
 - IBM Machine Learning Certificate
+
+---
+
+## 📈 Tableau
+- TCAI — Tableau + Einstein Discovery: AI Integration Specialist 
 
 ---
 
