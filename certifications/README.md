@@ -49,7 +49,9 @@ Folder: `certifications/data/google/`
 ## 🔴 Databricks  
 Folder: `certifications/data/databricks/`
 
-![Lakehouse Fundamentals](https://img.shields.io/badge/Databricks-Lakehouse%20Fundamentals-e82c2a?logo=databricks&logoColor=white)  
+<a href="./Databricks%20-%20Accreditation%20-%20Fundamentals.pdf">
+  <img src="./Databricks%20-%20Accreditation%20-%20Fundamentals.png" width="140" />
+</a> 
 
 - Data Engineer Associate  
 - Data Engineer Professional  
@@ -122,7 +124,10 @@ Folder: `certifications/ai/google/`
 ## 🔴 Databricks  
 Folder: `certifications/ai/databricks/`
 
-![Generative AI Accreditation](https://img.shields.io/badge/Databricks-Generative%20AI%20Accreditation-e82c2a?logo=databricks&logoColor=white)  
+<a href="./Databricks%20-%20Accreditation%20-%20Generative%20AI%20Fundamentals.pdf">
+  <img src="./Databricks%20-%20Accreditation%20-%20Generative%20AI%20Fundamentals.png" width="140" />
+</a>
+ 
 
 - Machine Learning Associate  
 - Machine Learning Professional  
