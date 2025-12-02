@@ -261,14 +261,14 @@ Located at: `portfolio/certifications/data/`
 
 ## 🟣 DAMA International
 - CDMP – Data Management Fundamentals  
-- CDMP – Data Quality  
+- CDMP – Data Modeling & Design  
 - CDMP – Data Warehousing & BI  
 
 ---
 
 ## 🟡 TDWI
 - CBIP – Data Foundations  
-- CBIP – IS Core / Business Core  
+- CBIP – IS Core  
 - CBIP – Specialty Exams  
 
 ---
@@ -309,6 +309,7 @@ Located at: `portfolio/certifications/ai/`
 ---
 
 ## 🔴 Databricks
+- Generative AI Accreditation
 - Machine Learning Associate  
 - Machine Learning Professional  
 - Generative AI Professional  
