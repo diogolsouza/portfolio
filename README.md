@@ -72,17 +72,23 @@ portfolio/
     nyc-taxi/
 
   certifications/
-    microsoft/
-      aws/
-      dama-international/
-      databricks/
-      google/
-      ibm/
-      informs-certifiedanalytics/
+    data/
       microsoft/
-      nvidia/
-      tableau/
+      aws/
+      google/
+      databricks/
+      dama-international/
       tdwi/
+      informs-certifiedanalytics/
+      tableau/
+    ai/
+      microsoft/
+      aws/
+      google/
+      databricks/
+      deeplearning-ai/
+      nvidia/
+      ibm/
       
 ```
 
