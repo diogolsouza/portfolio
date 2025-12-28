@@ -47,6 +47,9 @@ Each page is designed around a **clear business question**, following enterprise
 ## 📊 Full Dashboard (PBIX)
 📎 **[Download PBIX](pdix/Power%20BI%20Dashboard%20-%20Superstore.pbix)**
 
+## 🧮 Dataset
+📎 **[Access Superstore Dataset](../../datasets/superstore/)**
+
 ---
 
 ## 🧱 Data Model
@@ -250,15 +253,21 @@ AVERAGE ( Orders[Shipping Days] )
 ```
 superstore/
 │
-├─ pbix/
-│   └─ Power BI Dashboard - Superstore.pbix
+├─ assets/
+│   ├─ diagrams/
+│   │   └─ Power BI Dashboard - Superstore.png
+│   │
+│   └─ screenshots/
+│       ├─ customer-intelligence.gif
+│       ├─ discount-profitability.gif
+│       ├─ executive-overview.gif
+│       └─ operations-logistics.gif
 │
 ├─ pdf/
 │   └─ Power BI Dashboard - Superstore.pdf
 │
-├─ assets/
-│   ├─ screenshots/
-│   └─ diagrams/
+├─ pdix/
+│   └─ Power BI Dashboard - Superstore.pbix
 │
 └─ README.md
 ```
