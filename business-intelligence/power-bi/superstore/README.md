@@ -28,16 +28,16 @@ Each page is designed around a **clear business question**, following enterprise
 ## 🖼 Dashboard Preview
 
 ### Executive Overview
-![Executive Overview](assets/screenshots/executive-overview.png)
+![Executive Overview](assets/screenshots/executive-overview.gif)
 
 ### Customer Intelligence
-![Customer Intelligence](assets/screenshots/customer-intelligence.png)
+![Customer Intelligence](assets/screenshots/customer-intelligence.gif)
 
 ### Discount & Profitability
-![Discount & Profitability](assets/screenshots/discount-profitability.png)
+![Discount & Profitability](assets/screenshots/discount-profitability.gif)
 
 ### Operations & Logistics
-![Operations & Logistics](assets/screenshots/operations-logistics.png)
+![Operations & Logistics](assets/screenshots/operations-logistics.gif)
 
 ---
 
