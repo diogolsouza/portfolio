@@ -213,8 +213,6 @@ IF (
 )
 ```
 
----
-
 ### 🔹 Customer Intelligence
 
 
@@ -291,9 +289,7 @@ IF (
 )
 ```
 
----
-
-###🔹 Discount & Profitability
+### 🔹 Discount & Profitability
 
 
 #### Discounted Sales
@@ -364,18 +360,18 @@ Loss Rate % =
 DIVIDE ( [Orders with Loss], [Total Orders] )
 ```
 
-###🔹 Growth & Time Intelligence
+### 🔹 Growth & Time Intelligence
 
 
 #### Sales YTD
 Year-to-date sales.
-```
+```DAX
 Sales YTD =
 TOTALYTD ( [Total Sales], Orders[Order Date] )
 ```
 #### Sales PY
 Sales from the previous year.
-```
+```DAX
 Sales PY =
 CALCULATE (
     [Total Sales],
@@ -384,7 +380,7 @@ CALCULATE (
 ```
 #### Sales YoY %
 Year-over-year sales growth.
-```
+```DAX
 Sales YoY % =
 DIVIDE ( [Total Sales] - [Sales PY], [Sales PY] )
 ```
