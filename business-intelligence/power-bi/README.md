@@ -1,31 +1,29 @@
-# 🟡 Power BI Dashboards
+## 🟡 Power BI Dashboards
 
-This folder contains **Power BI dashboards** built using real-world datasets and following best practices in:
+This folder contains production-style Power BI dashboards built using real-world datasets and enterprise BI best practices.
 
-- Star schema modeling  
-- DAX calculations  
-- KPI creation  
-- UX/UI design  
-- Report interactions  
-- Drill-through & tooltips  
-- Row-level security (optional)  
+### Core Capabilities Demonstrated
+- Dimensional modeling (star schema)
+- Advanced DAX measures & time intelligence
+- Executive KPI design
+- UX-focused dashboard layouts
+- Cross-filtering & interaction control
+- Drill-through and tooltip pages
+- Offline documentation (PDFs & screenshots)
 
-These dashboards demonstrate the ability to transform raw data into decision-ready insights.
+### Included Projects
+1. **AdventureWorks – Sales & Profit Analytics**  
+   Corporate-style performance dashboard focused on products, territories, margins, and customers.
 
-## Included Projects
+2. **Superstore – E-commerce Analytics**  
+   Multi-page executive dashboard analyzing revenue drivers, discount impact, customer concentration, and logistics efficiency.
 
-### 1. AdventureWorks – Sales & Profit Analytics
-A corporate-style dashboard analyzing product performance, territories, profit margins, and customer segments.
-
-### 2. Superstore – E-commerce Analytics
-A commercial analytics dashboard with category performance, shipping cost evaluation, and customer trends.
-
-### 3. HR Analytics – Employee Attrition Insights
-A people analytics dashboard using HR data to analyze attrition, hiring trends, and role segmentation.
+3. **HR Analytics – Employee Attrition Insights**  
+   People analytics dashboard focused on workforce trends, attrition drivers, and segmentation.
 
 Each project folder includes:
-- The `.pbix` file  
-- DAX measures  
-- Data model diagram  
-- Screenshots  
-- Project documentation  
+- `.pbix` report file
+- Offline PDF export
+- Dashboard screenshots
+- Data model diagram
+- DAX measures documentation
