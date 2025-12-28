@@ -25,10 +25,47 @@ Each page is designed around a **clear business question**, following enterprise
 
 ---
 
-## 🖼 Dashboard Preview
+## 📄 Full Dashboard (PDF)
+📎 **[Download PDF](pdf/Power%20BI%20Dashboard%20-%20Superstore.pdf)**
 
-### Executive Overview
+## 📊 Full Dashboard (PBIX)
+📎 **[Download PBIX](pdix/Power%20BI%20Dashboard%20-%20Superstore.pbix)**
+
+## 🧮 Dataset
+📎 **[Access Superstore Dataset](../../../datasets/superstore/)**
+
+---
+
+## 🖼 Dashboard Pages & Business Logic
+
+---
+
+### Page 1 — Executive Overview
+🎯 Business Question
+
+“How is the business performing overall?”
+
+### KPIs
+- Total Sales
+- Total Profit
+- Profit Margin %
+- Total Orders
+- Average Order Value (AOV)
+- Orders with Loss
+
+### Key Visuals
+- Monthly Sales & Profit trend
+- Top profitable sub-categories
+- Geographic sales distribution
+
+### Design & Technical Notes
+- Profit shown alongside Sales to expose margin erosion
+- Negative values intentionally highlighted
+- KPIs act as context indicators, not filters
+
 ![Executive Overview](assets/screenshots/executive-overview.gif)
+
+---
 
 ### Customer Intelligence
 ![Customer Intelligence](assets/screenshots/customer-intelligence.gif)
@@ -38,17 +75,6 @@ Each page is designed around a **clear business question**, following enterprise
 
 ### Operations & Logistics
 ![Operations & Logistics](assets/screenshots/operations-logistics.gif)
-
----
-
-## 📄 Full Dashboard (PDF)
-📎 **[Download PDF](pdf/Power%20BI%20Dashboard%20-%20Superstore.pdf)**
-
-## 📊 Full Dashboard (PBIX)
-📎 **[Download PBIX](pdix/Power%20BI%20Dashboard%20-%20Superstore.pbix)**
-
-## 🧮 Dataset
-📎 **[Access Superstore Dataset](../../../datasets/superstore/)**
 
 ---
 
