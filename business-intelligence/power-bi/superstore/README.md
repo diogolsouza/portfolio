@@ -65,6 +65,9 @@ Each page is designed around a **clear business question**, following enterprise
 - KPIs act as context indicators, not filters
 
 ### Page 2 — Customer Intelligence
+
+![Customer Intelligence](assets/screenshots/customer-intelligence.gif)
+
 🎯 Business Question
 
 “Who drives revenue, and how concentrated is it?”
@@ -85,10 +88,10 @@ Each page is designed around a **clear business question**, following enterprise
 - Combined absolute ($) and relative (%) labels
 - Segment mix intentionally normalized (100%) to avoid scale bias
 
-### Customer Intelligence
-![Customer Intelligence](assets/screenshots/customer-intelligence.gif)
-
 ### Page 3 — Discount & Profitability
+
+![Discount & Profitability](assets/screenshots/discount-profitability.gif)
+
 🎯 Business Question
 
 “Are discounts helping or harming profitability?”
@@ -111,10 +114,12 @@ Each page is designed around a **clear business question**, following enterprise
 - Negative profit deliberately shown to avoid misleading visuals
 - Sorting enforced via measure-based ordering (not alphabetic)
 
-### Discount & Profitability
-![Discount & Profitability](assets/screenshots/discount-profitability.gif)
+
 
 ### Page 4 — Operations & Logistics
+
+![Operations & Logistics](assets/screenshots/operations-logistics.gif)
+
 🎯 Business Question
 
 “Are we operationally efficient?”
@@ -132,9 +137,6 @@ Each page is designed around a **clear business question**, following enterprise
 - Tables do not cross-filter other visuals
 - Trend visuals cross-highlight instead of filtering
 - Focus on operational signal, not SLA enforcement
-
-### Operations & Logistics
-![Operations & Logistics](assets/screenshots/operations-logistics.gif)
 
 ---
 
@@ -443,116 +445,102 @@ IF (
 ```
 
 ---
+
 ###🔹 Discount & Profitability
 
 
-Discounted Sales
-
+#### Discounted Sales
 Sales generated from discounted orders.
-
+```
 Discounted Sales =
 CALCULATE (
     [Total Sales],
     Orders[Discount] > 0
 )
-
-Non-Discount Sales
-
+```
+#### Non-Discount Sales
 Sales generated without discounts.
-
+```
 Non-Discount Sales =
 CALCULATE (
     [Total Sales],
     Orders[Discount] = 0
 )
-
-Avg Discount %
-
+```
+#### Avg Discount %
 Average discount applied across orders.
-
+```
 Avg Discount % =
 AVERAGE ( Orders[Discount] )
-
-Profit w/ Discount
-
+```
+#### Profit w/ Discount
 Profit from discounted orders only.
-
+```
 Profit w/ Discount =
 CALCULATE (
     [Total Profit],
     Orders[Discount] > 0
 )
-
-Profit w/o Discount
-
+```
+#### Profit w/o Discount
 Profit from non-discounted orders.
-
+```
 Profit w/o Discount =
 CALCULATE (
     [Total Profit],
     Orders[Discount] = 0
 )
-
-Profit w/ Discount Color
-
+```
+#### Profit w/ Discount Color
 Conditional formatting for discounted profit.
-
+```
 Profit w/ Discount Color =
 IF (
     [Profit w/ Discount] < 0,
     "#E74C3C",
     "#2ECC71"
 )
-
-Orders with Loss
-
+```
+#### Orders with Loss
 Number of orders with negative profit.
-
+```
 Orders with Loss =
 CALCULATE (
     DISTINCTCOUNT ( Orders[Order ID] ),
     Orders[Profit] < 0
 )
-
-Loss Rate %
-
+```
+#### Loss Rate %
 Percentage of orders generating losses.
-
+```
 Loss Rate % =
 DIVIDE ( [Orders with Loss], [Total Orders] )
+```
 
 ###🔹 Growth & Time Intelligence
 
 
-Sales YTD
-
+#### Sales YTD
 Year-to-date sales.
-
+```
 Sales YTD =
 TOTALYTD ( [Total Sales], Orders[Order Date] )
-
-Sales PY
-
+```
+#### Sales PY
 Sales from the previous year.
-
+```
 Sales PY =
 CALCULATE (
     [Total Sales],
     SAMEPERIODLASTYEAR ( Orders[Order Date] )
 )
-
-Sales YoY %
-
+```
+#### Sales YoY %
 Year-over-year sales growth.
-
+```
 Sales YoY % =
 DIVIDE ( [Total Sales] - [Sales PY], [Sales PY] )
-
-
-
-
-
-
+```
 
 ---
 
