@@ -48,7 +48,7 @@ Each page is designed around a **clear business question**, following enterprise
 📎 **[Download PBIX](pdix/Power%20BI%20Dashboard%20-%20Superstore.pbix)**
 
 ## 🧮 Dataset
-📎 **[Access Superstore Dataset](../../datasets/superstore/)**
+📎 **[Access Superstore Dataset](../../../datasets/superstore/)**
 
 ---
 
