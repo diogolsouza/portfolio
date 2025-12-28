@@ -1,4 +1,4 @@
-# 📊 Superstore = Executive Business Intelligence Dashboard (Power BI)
+# 📊 Power BI - Superstore = Executive Business Intelligence Dashboard 
 
 ## 📌 Overview
 This repository contains a **multi-page executive Business Intelligence dashboard** built in **Microsoft Power BI**, using the Superstore dataset.
@@ -43,6 +43,9 @@ Each page is designed around a **clear business question**, following enterprise
 
 ## 📄 Full Dashboard (PDF)
 📎 **[Download PDF](pdf/Power%20BI%20Dashboard%20-%20Superstore.pdf)**
+
+## 📊 Full Dashboard (PBIX)
+📎 **[Download PBIX](pdix/Power%20BI%20Dashboard%20-%20Superstore.pbix)**
 
 ---
 
