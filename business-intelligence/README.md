@@ -2,7 +2,7 @@
 
 This directory contains **Business Intelligence dashboards and analytical solutions** developed using:
 
-- **Power BI**
+- **[Power BI](power-bi/)**
 - **Tableau**
 - **Looker Studio (Google)**
 

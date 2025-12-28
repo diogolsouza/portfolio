@@ -15,7 +15,7 @@ This folder contains production-style Power BI dashboards built using real-world
 1. **AdventureWorks – Sales & Profit Analytics**  
    Corporate-style performance dashboard focused on products, territories, margins, and customers.
 
-2. **Superstore – E-commerce Analytics**  
+2. **[Superstore – E-commerce Analytics] (superstore/)**  
    Multi-page executive dashboard analyzing revenue drivers, discount impact, customer concentration, and logistics efficiency.
 
 3. **HR Analytics – Employee Attrition Insights**  
