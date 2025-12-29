@@ -39,6 +39,10 @@ Folder: `certifications/data/aws/`
 ## 🟦 Google Cloud  
 Folder: `certifications/data/google/`
 
+<a href="https://www.credly.com/badges/eeaee783-f488-47fe-ad33-1ba2e23864f5" target="_blank">
+  <img src="./data/google/Google%20-%20Badge%20-%20Analyze%20and%20Visualize%20Looker%20Data%20Skill.png" width="140" />
+</a>
+
 - GCP-CDL — Cloud Digital Leader  
 - GCP-ACE — Associate Cloud Engineer  
 - GCP-PDE — Professional Data Engineer  
