@@ -9,7 +9,7 @@ Welcome to my **end-to-end Data & AI Portfolio**, a collection of real-world pro
 - **Advanced Analytics**
 - **Cloud Data Solutions (Azure)**
 
-This portfolio includes dashboards, data pipelines, ML models, AI agents, notebooks, and curated datasets — organized by domain for clarity and easy navigation.
+This portfolio includes dashboards, data pipelines, ML models, AI agents, notebooks, and curated datasets - organized by domain for clarity and easy navigation.
 
 ---
 
@@ -17,79 +17,98 @@ This portfolio includes dashboards, data pipelines, ML models, AI agents, notebo
 
 ```
 portfolio/
-  business-intelligence/
-    power-bi/
-      adventureworks/
-      superstore/
-      hr-analytics/
-    tableau/
-      superstore/
-      nyc-taxi/
-    loocker/
-      google-analytics/
-      superstore/
-
-  data-engineering/
-    azure-adf/
-      pipeline-nyc-taxi/
-      pipeline-superstore/
-    databricks/
-      bronze-silver-gold-demo/
-    sql-pipelines/
-      dwh-star-schema-example/
-    etl-projects/
-      incremental-load-demo/
-
-  machine-learning/
-    supervised/
-      churn-model/
-      fraud-detection/
-    unsupervised/
-      customer-segmentation/
-    nlp/
-      sentiment-analysis/
-    mlops/
-      model-deployment-azure/
-
-  ai/
-    llm-projects/
-      resume-analyzer/
-    rag/
-      data-governance-assistant/
-    agentic-ai/
-      data-engineer-agent/
-    prompt-engineering/
-      portfolio-optimized-prompts/
-
-  analytics/
-    python-analytics/
-    sql-analytics/
-
-  datasets/
-    adventureworks/
-    superstore/
-    hr-analytics/
-    nyc-taxi/
-
-  certifications/
-    data/
-      microsoft/
-      aws/
-      google/
-      databricks/
-      dama-international/
-      tdwi/
-      informs-certifiedanalytics/
-      tableau/
-    ai/
-      microsoft/
-      aws/
-      google/
-      databricks/
-      deeplearning-ai/
-      nvidia/
-      ibm/
-      
+│
+├─ business-intelligence/
+│   │
+│   ├─ power-bi/
+│   │   ├─ adventureworks/
+│   │   ├─ superstore/
+│   │   └─ hr-analytics/
+│   │
+│   ├─ tableau/
+│   │   ├─ superstore/
+│   │   └─ nyc-taxi/
+│   │
+│   └─ loocker/
+│       ├─ google-analytics/
+│       └─ superstore/
+│
+├─ data-engineering/
+│   │
+│   ├─ azure-adf/
+│   │   ├─ pipeline-nyc-taxi/
+│   │   └─ pipeline-superstore/
+│   │
+│   ├─ databricks/
+│   │   └─ bronze-silver-gold-demo/
+│   │
+│   ├─ sql-pipelines/
+│   │   └─ dwh-star-schema-example/
+│   │
+│   └─ etl-projects/
+│       └─ incremental-load-demo/
+│
+├─ machine-learning/
+│   │
+│   ├─ supervised/
+│   │   ├─ churn-model/
+│   │   └─ fraud-detection/
+│   │
+│   ├─ unsupervised/
+│   │   └─ customer-segmentation/
+│   │
+│   ├─ nlp/
+│   │   └─ sentiment-analysis/
+│   │
+│   └─ mlops/
+│       └─ model-deployment-azure/
+│
+├─ ai/
+│   │
+│   ├─ llm-projects/
+│   │   └─ resume-analyzer/
+│   │
+│   ├─ rag/
+│   │   └─ data-governance-assistant/
+│   │
+│   ├─ agentic-ai/
+│   │   └─ data-engineer-agent/
+│   │
+│   └─ prompt-engineering/
+│       └─ portfolio-optimized-prompts/
+│
+├─ analytics/
+│   │
+│   ├─ python-analytics/
+│   └─ sql-analytics/
+│
+├─ datasets/
+│   │
+│   ├─ adventureworks/
+│   ├─ superstore/
+│   ├─ hr-analytics/
+│   └─ nyc-taxi/
+│
+└─ certifications/
+    │
+    ├─ data/
+    │   ├─ microsoft/
+    │   ├─ aws/
+    │   ├─ google/
+    │   ├─ databricks/
+    │   ├─ dama-international/
+    │   ├─ tdwi/
+    │   ├─ informs-certifiedanalytics/
+    │   └─ tableau/
+    │
+    └─ ai/
+        ├─ microsoft/
+        ├─ aws/
+        ├─ google/
+        ├─ databricks/
+        ├─ deeplearning-ai/
+        ├─ nvidia/
+        └─ ibm/    
 ```
 
 ---
@@ -260,16 +279,21 @@ Located at: `portfolio/certifications/data/`
 ---
 
 ## 🟣 DAMA International
-- CDMP – Data Management Fundamentals  
-- CDMP – Data Modeling & Design  
-- CDMP – Data Warehousing & BI  
+- CDMP — Data Management Fundamentals  
+- CDMP — Data Modeling & Design  
+- CDMP — Data Warehousing & BI  
 
 ---
 
 ## 🟡 TDWI
-- CBIP – Data Foundations  
-- CBIP – IS Core  
-- CBIP – Specialty Exams  
+- CBIP — Data Foundations  
+- CBIP — IS Core  
+- CBIP — Data Integration (Specialty Exam) 
+
+---
+
+## 🟢 ISO / AI Governance
+- ISO/IEC 42001 — Artificial Intelligence Management System (AIMS)
 
 ---
 
@@ -298,7 +322,6 @@ Located at: `portfolio/certifications/ai/`
 - MLS-C01 — Machine Learning Specialty
 - DAS-C01 — AWS Certified Data Analytics Specialty
 - GAI-A01 — Generative AI Engineer Associate
--
 
 ---
 
