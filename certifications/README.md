@@ -66,18 +66,23 @@ Folder: `certifications/data/databricks/`
 ## 🟣 DAMA International  
 Folder: `certifications/data/dama/`
 
-- CDMP – Data Management Fundamentals  
-- CDMP – Data Modeling & Design 
-- CDMP – Data Warehousing & BI   
+- CDMP — Data Management Fundamentals  
+- CDMP — Data Modeling & Design 
+- CDMP — Data Warehousing & BI   
 
 ---
 
 ## 🟡 TDWI  
 Folder: `certifications/data/tdwi/`
 
-- CBIP – Data Foundations  
-- CBIP – IS Core  
-- CBIP – Data Integration 
+- CBIP — Data Foundations  
+- CBIP — IS Core  
+- CBIP — Data Integration
+
+---
+
+## 🟢 ISO / AI Governance
+- ISO/IEC 42001 — Artificial Intelligence Management System (AIMS)
 
 ---
 
@@ -143,7 +148,7 @@ Folder: `certifications/ai/databricks/`
 Folder: `certifications/ai/nvidia/`
 
 - NVAIE — NVIDIA Certified AI Engineer  
-- NVIDIA Deep Learning Institute – Fundamentals of Deep Learning  
+- NVIDIA Deep Learning Institute — Fundamentals of Deep Learning  
 
 ---
 
@@ -166,22 +171,26 @@ Folder: `certifications/ai/tableau/`
 
 ```
 certifications/
-    data/
-        microsoft/
-        aws/
-        google/
-        databricks/
-        dama/
-        tdwi/
-        certifiedanalytics/
-        tableau/
-    ai/
-        microsoft/
-        aws/
-        google/
-        databricks/
-        deep-learning-ai/
-        nvidia/
-        tableau/
-    ibm/
+│
+├─ data/
+│   ├─ microsoft/
+│   ├─ aws/
+│   ├─ google/
+│   ├─ databricks/
+│   ├─ dama/
+│   ├─ tdwi/
+│   ├─ certifiedanalytics/
+│   └─ tableau/
+│
+├─ ai/
+│   ├─ microsoft/
+│   ├─ aws/
+│   ├─ google/
+│   ├─ databricks/
+│   ├─ deep-learning-ai/
+│   ├─ nvidia/
+│   └─ tableau/
+│
+└─ ibm/
+
 ```
