@@ -61,31 +61,15 @@ data-engineering/
 
 ## 📌 Projects
 
-Projects are located under the `projects/` folder.  
-Each project is **self-contained** and follows a consistent structure so it can be reviewed independently.
+The following projects demonstrate end-to-end Data Engineering solutions using Azure-native technologies and enterprise-grade practices.
 
-Every project typically includes:
+### ✈️ Azure Lakehouse — FAA Flight Analytics
+- **Architecture:** Azure Data Lake + Databricks + Synapse
+- **Patterns:** Medallion (Bronze/Silver/Gold), ETL & ELT, Incremental Loads
+- **Focus:** Aviation analytics, operational performance, BI-ready datasets
+- **Link:** [View project](./projects/azure-lakehouse-faa/README.md)
 
-- **01 – Ingestion (Bronze)**  
-  Raw data ingestion with append-only storage, schema handling, and replayability.
-
-- **02 – Transformation (Silver)**  
-  Data cleansing, standardization, deduplication, and data quality enforcement.
-
-- **03 – Serving (Gold)**  
-  Business-ready datasets, aggregates, and analytics-focused data marts.
-
-- **04 – Warehouse (Synapse / SQL)**  
-  Dimensional modeling, Fact and Dimension tables, SCD logic, and SQL-based analytics.
-
-- **05 – Orchestration & CI/CD**  
-  Pipeline orchestration, environment awareness, and deployment considerations.
-
-- **06 – Observability**  
-  Logging, monitoring, alerting strategies, and operational runbooks.
-
-- **07 – Documentation**  
-  Data dictionaries, lineage, security considerations, and ownership documentation.
+> Uses publicly available U.S. FAA/BTS flight performance data for analytical and educational purposes.
 
 ---
 
