@@ -3,7 +3,7 @@
 Welcome to my **end-to-end Data & AI Portfolio**, a collection of real-world projects showcasing my capabilities across:
 
 - **[Business Intelligence](business-intelligence/)**
-- **Data Engineering**
+- **[Data Engineering](data-engineering/)**
 - **Machine Learning**
 - **Artificial Intelligence / LLMs**
 - **Advanced Analytics**
