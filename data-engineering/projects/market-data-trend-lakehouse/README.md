@@ -47,21 +47,7 @@ No proprietary or restricted datasets are required.
 
 The solution follows a **Lakehouse-first architecture** optimized for time-series data processing and analytics.
 
-```
-Market Data Sources
-        │
-        ▼
-Ingestion Jobs (Micro-batch / Streaming)
-        │
-        ▼
-Azure Data Lake Gen2 (Delta Lake)
-  ┌────────────────────────────┐
-  │ Bronze → Silver → Gold     │  ← Databricks (Spark / Delta)
-  └────────────────────────────┘
-                │
-                ▼
-Analytics, BI, Feature Stores, AI
-```
+![Architecture Overview](<Azure Lakehouse - Market Data & Trend Analytics - Architecture.png>)
 
 The architecture supports both **historical backfill** and **incremental ingestion**, enabling reproducible analytics and replayability.
 
