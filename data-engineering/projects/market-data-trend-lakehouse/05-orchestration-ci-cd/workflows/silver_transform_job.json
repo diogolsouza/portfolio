@@ -1,0 +1,65 @@
+{
+  "name": "market-data | silver transform (bars \u2192 features)",
+  "max_concurrent_runs": 1,
+  "tasks": [
+    {
+      "task_key": "silver_bars",
+      "description": "Transform bronze_market_bars_raw into silver_market_bars (standardization + gap flags).",
+      "notebook_task": {
+        "notebook_path": "/Repos/<YOUR_REPO_PATH>/02-transformation-silver/notebooks/transform_silver_market_bars",
+        "base_parameters": {
+          "config_path": "dbfs:/FileStore/market-data/config/silver.json"
+        }
+      },
+      "job_cluster_key": "silver_job_cluster",
+      "timeout_seconds": 3600,
+      "max_retries": 2,
+      "min_retry_interval_millis": 60000,
+      "retry_on_timeout": true
+    },
+    {
+      "task_key": "silver_features",
+      "description": "Compute strategy-agnostic indicators/features from silver_market_bars into silver_market_features.",
+      "depends_on": [
+        {
+          "task_key": "silver_bars"
+        }
+      ],
+      "notebook_task": {
+        "notebook_path": "/Repos/<YOUR_REPO_PATH>/02-transformation-silver/notebooks/transform_silver_market_features",
+        "base_parameters": {
+          "config_path": "dbfs:/FileStore/market-data/config/silver.json"
+        }
+      },
+      "job_cluster_key": "silver_job_cluster",
+      "timeout_seconds": 3600,
+      "max_retries": 2,
+      "min_retry_interval_millis": 60000,
+      "retry_on_timeout": true
+    }
+  ],
+  "job_clusters": [
+    {
+      "job_cluster_key": "silver_job_cluster",
+      "new_cluster": {
+        "spark_version": "<DATABRICKS_RUNTIME_VERSION>",
+        "node_type_id": "<NODE_TYPE>",
+        "num_workers": 2,
+        "data_security_mode": "SINGLE_USER",
+        "spark_conf": {
+          "spark.databricks.delta.optimizeWrite.enabled": "true",
+          "spark.databricks.delta.autoCompact.enabled": "true"
+        }
+      }
+    }
+  ],
+  "schedule": {
+    "quartz_cron_expression": "0 2/5 * * * ?",
+    "timezone_id": "UTC",
+    "pause_status": "PAUSED"
+  },
+  "tags": {
+    "project": "market-data-trend-lakehouse",
+    "layer": "silver"
+  }
+}
