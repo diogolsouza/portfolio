@@ -120,25 +120,25 @@ cms-healthcare-lakehouse/
 
 ### 📂 Layer Navigation
 
-- 🟤 **01 – Ingestion (Bronze)**  
+- 🟤 **[01 – Ingestion (Bronze)](./01-ingestion-bronze/README.md)**  
   Raw ingestion, schema handling, replayability
 
-- ⚪ **02 – Transformation (Silver)**  
+- ⚪ **[02 – Transformation (Silver)](./02-transformation-silver/README.md)**  
   Cleansing, conformance, data quality gates
 
-- 🟡 **03 – Serving (Gold)**  
+- 🟡 **[03 – Serving (Gold)](./03-serving-gold/README.md)**  
   Business-ready datasets and aggregates
 
-- 🏢 **04 – Synapse Warehouse**  
+- 🏢 **[04 – Synapse Warehouse](./04-synapse-warehouse/README.md)**  
   Dimensional modeling and SQL analytics
 
-- 🔁 **05 – Orchestration & CI/CD**  
+- 🔁 **[05 – Orchestration & CI/CD](./05-orchestration-ci-cd/README.md)**  
   Orchestration, pipelines, deployment considerations
 
-- 📊 **06 – Observability**  
+- 📊 **[06 – Observability](./06-observability/README.md)**  
   Logging, monitoring, alerting, runbooks
 
-- 📚 **07 – Documentation**  
+- 📚 **[07 – Documentation](./07-documentation/README.md)**  
   Data dictionary, lineage, governance
 
 Each folder contains its own README describing design decisions and responsibilities.

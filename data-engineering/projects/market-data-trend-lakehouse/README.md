@@ -114,22 +114,47 @@ market-data-trend-lakehouse/
 
 This structure is **intentionally consistent** with other portfolio projects to emphasize architectural reuse across domains.
 
+### 📂 Layer Navigation
+
+- 🟤 **[01 – Ingestion (Bronze)](./01-ingestion-bronze/README.md)**  
+  Raw ingestion, schema handling, replayability
+
+- ⚪ **[02 – Transformation (Silver)](./02-transformation-silver/README.md)**  
+  Cleansing, conformance, data quality gates
+
+- 🟡 **[03 – Serving (Gold)](./03-serving-gold/README.md)**  
+  Business-ready datasets and aggregates
+
+- 🏢 **[04 – Synapse Warehouse](./04-synapse-warehouse/README.md)**  
+  Dimensional modeling and SQL analytics
+
+- 🔁 **[05 – Orchestration & CI/CD](./05-orchestration-ci-cd/README.md)**  
+  Orchestration, pipelines, deployment considerations
+
+- 📊 **[06 – Observability](./06-observability/README.md)**  
+  Logging, monitoring, alerting, runbooks
+
+- 📚 **[07 – Documentation](./07-documentation/README.md)**  
+  Data dictionary, lineage, governance
+
+Each folder contains its own README describing design decisions and responsibilities.
+
 ---
 
 ## Lakehouse Layers
 
-### Bronze — Raw Ingestion
+### Bronze - Raw Ingestion
 - Immutable, append-only market data
 - Source-faithful schemas
 - Replayable and auditable ingestion
 
-### Silver — Standardization & Features
+### Silver - Standardization & Features
 - Time normalization and alignment
 - Data quality enforcement
 - Feature engineering (returns, volatility, indicators)
 - Asset- and timeframe-agnostic design
 
-### Gold — Analytics & Signals
+### Gold - Analytics & Signals
 - Trend and regime datasets
 - Signal-oriented tables
 - Optimized for BI, analytics, and ML consumption
