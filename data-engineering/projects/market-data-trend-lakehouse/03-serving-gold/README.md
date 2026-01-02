@@ -1,43 +1,30 @@
-# 🟡 Serving — Gold Layer
+# 🟡 Gold Layer — Generic Trend & Signal Contracts (Rules v1)
 
-## Purpose
+This Gold layer keeps the **same design strategy as Bronze/Silver**:
+- **Asset- and interval-agnostic**
+- **Config-driven**
+- **Deterministic and auditable** (Rules v1 baseline)
+- ML remains **optional** and **does not replace rules**
 
-The Gold layer delivers **analytics-ready trend and signal datasets** optimized for **BI, analytics, and machine learning workloads**.
+## Core Contracts (Generic)
 
-It represents the primary consumption layer of the market data platform.
+1) `gold_trend_rules`
+- Deterministic rules-based trend per `(source, asset_class, symbol, bar_interval, ts_utc)`
 
----
+2) `gold_trend_ml` (optional / placeholder)
+- Reserved contract for probabilistic ML outputs
 
-## Responsibilities
+3) `gold_signal_snapshot`
+- Decision-ready contract (one row per bar), merging rules + optional ML + confidence + volatility state
 
-- Generate deterministic trend and regime datasets
-- Apply business-level aggregations
-- Version signal logic for reproducibility
-- Optimize data for analytical access patterns
+## Optional Convenience Views (5m example)
 
----
+For presentation purposes, you can create views such as:
+- `gold_trend_5m_rules`
+- `gold_trend_5m_ml`
+- `gold_signal_snapshot_5m`
 
-## Gold Datasets
+These are simple filters over the generic tables where `bar_interval = '5m'`.
 
-- `gold_market_trends`
-- `gold_market_signals`
-- `gold_market_regimes` (optional)
-
-These datasets are **read-only**, curated, and optimized for downstream consumption.
-
----
-
-## Design Principles
-
-- Clear separation between raw data and signals
-- Deterministic and reproducible logic
-- Asset-agnostic signal definitions
-- Separation of analytics and execution concerns
-
----
-
-## Downstream Consumers
-
-- BI and reporting tools
-- Exploratory analytics
-- Data science and ML pipelines
+## Inputs
+- `silver_market_features`
