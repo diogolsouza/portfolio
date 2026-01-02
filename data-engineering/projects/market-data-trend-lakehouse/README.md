@@ -47,7 +47,7 @@ No proprietary or restricted datasets are required.
 
 The solution follows a **Lakehouse-first architecture** optimized for time-series data processing and analytics.
 
-![Architecture Overview](<Azure Lakehouse - Market Data & Trend Analytics - Architecture.png>)
+![Architecture Overview](<07-documentation/architecture/Azure Lakehouse - Market Data & Trend Analytics - Architecture.png>)
 
 The architecture supports both **historical backfill** and **incremental ingestion**, enabling reproducible analytics and replayability.
 

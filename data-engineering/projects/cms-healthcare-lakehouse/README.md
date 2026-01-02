@@ -42,7 +42,7 @@ No protected health information (PHI), personally identifiable data, or restrict
 
 The solution follows a **Lakehouse-first design**, combining scalable cloud storage, distributed processing, and analytical SQL engines.
 
-![Architecture Overview](<Azure Lakehouse - CMS Healthcare Analytics - Architecture.drawio.png>)
+![Architecture Overview](<07-documentation/architecture/Azure Lakehouse - CMS Healthcare Analytics - Architecture.drawio.png>)
 
 ---
 
