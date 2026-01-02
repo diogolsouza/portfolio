@@ -73,6 +73,27 @@ The following projects demonstrate end-to-end Data Engineering solutions using A
 
 ---
 
+### 🏥 Azure Lakehouse — CMS Healthcare Analytics
+- **Architecture:** Azure Data Lake + Databricks + Synapse  
+- **Patterns:** Medallion (Bronze/Silver/Gold), ETL & ELT, Dimensional Modeling  
+- **Focus:** Medicare cost, utilization, and quality analytics  
+- **Link:** [View project](./projects/cms-healthcare-lakehouse/README.md)
+
+> Uses publicly available U.S. Medicare data published by the Centers for Medicare & Medicaid Services (CMS) for analytical and educational purposes.
+
+---
+
+### 💱 Azure Lakehouse — FX Market Data & Trend Analytics
+- **Architecture:** Azure Data Lake + Databricks  
+- **Patterns:** Medallion (Bronze/Silver/Gold), Micro-batch Ingestion, Feature Engineering  
+- **Focus:** EURUSD market data, 5-minute trend detection, analytics-ready signal datasets  
+- **Link:** [View project](./projects/eurusd-trend-lakehouse/README.md)
+
+> Uses publicly available market data sources for analytical and educational purposes.  
+> No trading advice is provided; this project focuses on data engineering, analytics, and system design.
+
+---
+
 ## 🧩 Technologies
 
 The following technologies are used across projects:
