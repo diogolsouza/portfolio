@@ -1,0 +1,36 @@
+{
+  "input": {
+    "catalog": "main",
+    "schema": "market_data",
+    "silver_features_table": "silver_market_features"
+  },
+  "output": {
+    "catalog": "main",
+    "schema": "market_data",
+    "gold_rules_table": "gold_trend_rules",
+    "gold_ml_table": "gold_trend_ml",
+    "gold_snapshot_table": "gold_signal_snapshot"
+  },
+  "filters": {
+    "asset_classes": ["FX"],
+    "symbols": ["EURUSD"],
+    "intervals": ["5m", "15m"]
+  },
+  "rules_v1": {
+    "ema_fast_col": "ema_fast_20",
+    "ema_slow_col": "ema_slow_50",
+    "atr_col": "atr_14",
+    "S_min": 0.25,
+    "signal_version": "rules_v1"
+  },
+  "snapshot": {
+    "volatility_window_bars": 288,
+    "low_mult": 0.8,
+    "high_mult": 1.2,
+    "confidence_from_rules": {
+      "enabled": true,
+      "cap_at": 1.0,
+      "scale_mult": 2.0
+    }
+  }
+}
