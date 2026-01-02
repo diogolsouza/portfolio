@@ -1,0 +1,43 @@
+{
+  "name": "market-data | bronze backfill (manual)",
+  "max_concurrent_runs": 1,
+  "tasks": [
+    {
+      "task_key": "backfill_bronze_market_bars",
+      "description": "Backfill historical raw market bars into bronze_market_bars_raw.",
+      "notebook_task": {
+        "notebook_path": "/Repos/<YOUR_REPO_PATH>/01-ingestion-bronze/notebooks/ingest_market_bars",
+        "base_parameters": {
+          "config_path": "dbfs:/FileStore/market-data/config/ingestion.backfill.json",
+          "mode": "backfill",
+          "as_of_utc": ""
+        }
+      },
+      "job_cluster_key": "bronze_job_cluster",
+      "timeout_seconds": 7200,
+      "max_retries": 1,
+      "min_retry_interval_millis": 60000,
+      "retry_on_timeout": true
+    }
+  ],
+  "job_clusters": [
+    {
+      "job_cluster_key": "bronze_job_cluster",
+      "new_cluster": {
+        "spark_version": "<DATABRICKS_RUNTIME_VERSION>",
+        "node_type_id": "<NODE_TYPE>",
+        "num_workers": 2,
+        "data_security_mode": "SINGLE_USER",
+        "spark_conf": {
+          "spark.databricks.delta.optimizeWrite.enabled": "true",
+          "spark.databricks.delta.autoCompact.enabled": "true"
+        }
+      }
+    }
+  ],
+  "tags": {
+    "project": "market-data-trend-lakehouse",
+    "layer": "bronze",
+    "mode": "backfill"
+  }
+}
