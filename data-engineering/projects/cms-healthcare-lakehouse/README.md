@@ -42,22 +42,7 @@ No protected health information (PHI), personally identifiable data, or restrict
 
 The solution follows a **Lakehouse-first design**, combining scalable cloud storage, distributed processing, and analytical SQL engines.
 
-```
-Source Data (CMS Open Data)
-        │
-        ▼
-Azure Data Factory (Orchestration)
-        │
-        ▼
-Azure Data Lake Gen2 (Delta Lake)
-  ┌────────────────────────────┐
-  │ Bronze → Silver → Gold     │  ← Databricks (ETL)
-  └────────────────────────────┘
-                │
-                ▼
-Azure Synapse Analytics
-(Data Warehouse & SQL ELT)
-```
+![Architecture Overview](<Azure Lakehouse - CMS Healthcare Analytics - Architecture.drawio.png>)
 
 ---
 

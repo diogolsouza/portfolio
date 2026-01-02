@@ -42,22 +42,7 @@ No restricted, real-time, sensitive, or personally identifiable data is used.
 
 The solution follows a **Lakehouse-first design**, combining scalable storage, distributed processing, and analytical SQL engines.
 
-```
-Source Data (Public FAA / BTS)
-        │
-        ▼
-Azure Data Factory (Orchestration)
-        │
-        ▼
-Azure Data Lake Gen2 (Delta Lake)
-  ┌────────────────────────────┐
-  │ Bronze → Silver → Gold     │  ← Databricks (ETL)
-  └────────────────────────────┘
-                │
-                ▼
-Azure Synapse Analytics
-(Data Warehouse & SQL ELT)
-```
+![Architecture Overview](<Azure Lakehouse - FAA Flight Analytics - Architecture.drawio.png>)
 
 ---
 
