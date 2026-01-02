@@ -63,7 +63,7 @@ data-engineering/
 
 The following projects demonstrate end-to-end Data Engineering solutions using Azure-native technologies and enterprise-grade practices.
 
-### ✈️ Azure Lakehouse — FAA Flight Analytics
+### ✈️ Azure Lakehouse - FAA Flight Analytics
 - **Architecture:** Azure Data Lake + Databricks + Synapse
 - **Patterns:** Medallion (Bronze/Silver/Gold), ETL & ELT, Incremental Loads
 - **Focus:** Aviation analytics, operational performance, BI-ready datasets
@@ -73,7 +73,7 @@ The following projects demonstrate end-to-end Data Engineering solutions using A
 
 ---
 
-### 🏥 Azure Lakehouse — CMS Healthcare Analytics
+### 🏥 Azure Lakehouse - CMS Healthcare Analytics
 - **Architecture:** Azure Data Lake + Databricks + Synapse  
 - **Patterns:** Medallion (Bronze/Silver/Gold), ETL & ELT, Dimensional Modeling  
 - **Focus:** Medicare cost, utilization, and quality analytics  
@@ -83,14 +83,15 @@ The following projects demonstrate end-to-end Data Engineering solutions using A
 
 ---
 
-### 💱 Azure Lakehouse — FX Market Data & Trend Analytics
+### 💱 Azure Lakehouse - Market Data & Trend Analytics
 - **Architecture:** Azure Data Lake + Databricks  
-- **Patterns:** Medallion (Bronze/Silver/Gold), Micro-batch Ingestion, Feature Engineering  
-- **Focus:** EURUSD market data, 5-minute trend detection, analytics-ready signal datasets  
-- **Link:** [View project](./projects/eurusd-trend-lakehouse/README.md)
+- **Patterns:** Medallion (Bronze/Silver/Gold), Micro-batch & Streaming Ingestion, Feature Engineering  
+- **Focus:** Multi-asset market data ingestion, trend detection, analytics- and AI-ready signal datasets  
+- **Link:** [View project](./projects/market-data-trend-lakehouse/README.md)
 
 > Uses publicly available market data sources for analytical and educational purposes.  
-> No trading advice is provided; this project focuses on data engineering, analytics, and system design.
+> This project focuses on data engineering, analytics, and system design; it does not provide trading or investment advice.
+
 
 ---
 

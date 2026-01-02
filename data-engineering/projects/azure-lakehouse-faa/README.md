@@ -1,4 +1,4 @@
-# ✈️ Azure Lakehouse — FAA Flight Analytics
+# ✈️ Azure Lakehouse - FAA Flight Analytics
 
 ## Project Overview
 

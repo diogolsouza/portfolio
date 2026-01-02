@@ -1,4 +1,4 @@
-# 🏥 Azure Lakehouse — CMS Healthcare Analytics
+# 🏥 Azure Lakehouse - CMS Healthcare Analytics
 
 ## Project Overview
 
