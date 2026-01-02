@@ -1,0 +1,32 @@
+{
+  "input": {
+    "catalog": "main",
+    "schema": "market_data",
+    "bronze_table": "bronze_market_bars_raw"
+  },
+  "output": {
+    "catalog": "main",
+    "schema": "market_data",
+    "silver_bars_table": "silver_market_bars",
+    "silver_features_table": "silver_market_features"
+  },
+  "filters": {
+    "asset_classes": ["FX"],
+    "symbols": ["EURUSD"],
+    "intervals": ["5m"]
+  },
+  "quality": {
+    "enforce_ohlc_sanity": true,
+    "gap_detection": {
+      "enabled": true,
+      "tolerance_multiplier": 1.05
+    }
+  },
+  "features": {
+    "ema_fast": 20,
+    "ema_slow": 50,
+    "atr": 14,
+    "adx": 14,
+    "returns": [1, 3, 12]
+  }
+}

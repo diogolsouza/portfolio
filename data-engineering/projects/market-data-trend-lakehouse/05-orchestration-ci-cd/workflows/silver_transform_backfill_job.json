@@ -1,0 +1,61 @@
+{
+  "name": "market-data | silver transform backfill (bars \u2192 features)",
+  "max_concurrent_runs": 1,
+  "tasks": [
+    {
+      "task_key": "silver_bars_backfill",
+      "description": "Backfill silver_market_bars from bronze_market_bars_raw (standardization + gap flags).",
+      "notebook_task": {
+        "notebook_path": "/Repos/<YOUR_REPO_PATH>/02-transformation-silver/notebooks/transform_silver_market_bars",
+        "base_parameters": {
+          "config_path": "dbfs:/FileStore/market-data/config/silver.backfill.json"
+        }
+      },
+      "job_cluster_key": "silver_job_cluster",
+      "timeout_seconds": 7200,
+      "max_retries": 1,
+      "min_retry_interval_millis": 60000,
+      "retry_on_timeout": true
+    },
+    {
+      "task_key": "silver_features_backfill",
+      "description": "Backfill silver_market_features from silver_market_bars.",
+      "depends_on": [
+        {
+          "task_key": "silver_bars_backfill"
+        }
+      ],
+      "notebook_task": {
+        "notebook_path": "/Repos/<YOUR_REPO_PATH>/02-transformation-silver/notebooks/transform_silver_market_features",
+        "base_parameters": {
+          "config_path": "dbfs:/FileStore/market-data/config/silver.backfill.json"
+        }
+      },
+      "job_cluster_key": "silver_job_cluster",
+      "timeout_seconds": 7200,
+      "max_retries": 1,
+      "min_retry_interval_millis": 60000,
+      "retry_on_timeout": true
+    }
+  ],
+  "job_clusters": [
+    {
+      "job_cluster_key": "silver_job_cluster",
+      "new_cluster": {
+        "spark_version": "<DATABRICKS_RUNTIME_VERSION>",
+        "node_type_id": "<NODE_TYPE>",
+        "num_workers": 3,
+        "data_security_mode": "SINGLE_USER",
+        "spark_conf": {
+          "spark.databricks.delta.optimizeWrite.enabled": "true",
+          "spark.databricks.delta.autoCompact.enabled": "true"
+        }
+      }
+    }
+  ],
+  "tags": {
+    "project": "market-data-trend-lakehouse",
+    "layer": "silver",
+    "mode": "backfill"
+  }
+}
