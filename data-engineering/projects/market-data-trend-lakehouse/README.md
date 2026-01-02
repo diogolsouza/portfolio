@@ -125,7 +125,7 @@ This structure is **intentionally consistent** with other portfolio projects to 
 - 🟡 **[03 – Serving (Gold)](./03-serving-gold/README.md)**  
   Business-ready datasets and aggregates
 
-- 🏢 **[04 – Synapse Warehouse](./04-synapse-warehouse/README.md)**  
+- 🏢 **[04 – Synapse Warehouse](./04-analytics/README.md)**  
   Dimensional modeling and SQL analytics
 
 - 🔁 **[05 – Orchestration & CI/CD](./05-orchestration-ci-cd/README.md)**  
