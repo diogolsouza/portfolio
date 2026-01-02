@@ -1,0 +1,18 @@
+{
+  "source": "YOUR_PROVIDER_NAME",
+  "source_options": {
+    "api_key_secret_scope": "market-data",
+    "api_key_secret_key": "provider-api-key",
+    "base_url": "https://example.provider.api"
+  },
+  "assets": [
+    { "asset_class": "FX", "symbol": "EURUSD" },
+    { "asset_class": "FX", "symbol": "GBPUSD" }
+  ],
+  "intervals": ["1m", "5m", "15m", "1h"],
+  "storage": {
+    "catalog": "main",
+    "schema": "market_data",
+    "bronze_table": "bronze_market_bars_raw"
+  }
+}
