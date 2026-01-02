@@ -42,7 +42,7 @@ No restricted, real-time, sensitive, or personally identifiable data is used.
 
 The solution follows a **Lakehouse-first design**, combining scalable storage, distributed processing, and analytical SQL engines.
 
-![Architecture Overview](<Azure Lakehouse - FAA Flight Analytics - Architecture.drawio.png>)
+![Architecture Overview](<07-documentation/architecture/Azure Lakehouse - FAA Flight Analytics - Architecture.drawio.png>)
 
 ---
 
