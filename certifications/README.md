@@ -40,7 +40,9 @@ Folder: `certifications/data/aws/`
 Folder: `certifications/data/google/`
 
 <a href="https://www.credly.com/badges/eeaee783-f488-47fe-ad33-1ba2e23864f5" target="_blank">
-  <img src="./data/google/Google%20-%20Badge%20-%20Analyze%20and%20Visualize%20Looker%20Data%20Skill.png" width="140" />
+  <img src="./data/google/Prepare%20Data%20for%20Looker%20Dashboards%20and%20Reports.png" width="140" />
+  <img src="./data/google/Looker%20Studio%20Essentials.png" width="140" />
+  <img src="./data/google/Looker%20Studio%20Pro%20Essentials.png" width="140" />
 </a>
 
 - GCP-CDL — Cloud Digital Leader  
